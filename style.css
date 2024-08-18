@@ -4,5 +4,11 @@
     padding: 20px 10px 30px 40px;
     background-color: red;
     margin: 20px 10px 30px 40px;
-    border-radius: 50px
+    border-radius: 50px;
   }
+body {
+  background-image: url(/photosexe/artwork-teenage-mutant-ninja-turtles-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body * {background-color: white;}
