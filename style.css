@@ -3,12 +3,24 @@
   box-shadow: 20px 20px 20px black;
   padding: 20px 10px 30px 40px;
   background-color: blueviolet;
-  margin: 30px 10px 30px 40px;
+  margin: 30px 10px 30px 10px;
   border-radius: 50px;
 }
 body {
-background-image: url(/photosexe/artwork-teenage-mutant-ninja-turtles-wallpaper-preview.jpg);
+background-image: url(/photosexe/1297452.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
-body * {background-color: white;}
+body * {background-color:font-size: 4rem;
+  font-family: serif;
+  text-align: center;
+  color: white;}
+  h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  p {
+    font-size: xx-large;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
