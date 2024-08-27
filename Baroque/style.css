@@ -2,3 +2,13 @@ body {
     background-color: black;
     color: white;
 }
+h1 {
+    font-size:xxx-large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+  }
+p {
+    font-size: xx-large;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
