@@ -1,21 +1,24 @@
 .colgate {
   width: 200px;
   box-shadow: 20px 20px 20px black;
-  padding: 20px 10px 30px 40px;
-  background-color: blueviolet;
-  margin: 30px 10px 30px 10px;
+  padding: 20px;
+  background-color: #9a39f5;
+  margin: 30px;
+  align-content: center;
   border-radius: 50px;
 }
 body {
 background-image: url(/photosexe/1297452.png);
 background-repeat: no-repeat;
 background-size: cover;
+height: 100vh;
 }
 body * {background-color:font-size: 4rem;
   font-family: serif;
   text-align: center;
   color: white;}
   h1 {
+    font-size:xxx-large;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
