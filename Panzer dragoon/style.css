@@ -1,0 +1,25 @@
+body {
+    background-color: #13057a;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .colgate {
+    width: 200px;
+    box-shadow: 20px 20px 20px black;
+    padding: 20px;
+    background-color: #39baf5;
+    margin: 30px;
+    align-content: center;
+    border-radius: 50px;
+  }
+  h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #39baf5;
+  }
+  p {
+    border-style: solid;
+    background-color: black;
+    font-size: x-large;
+  }

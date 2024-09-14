@@ -1,3 +1,9 @@
+body {
+  color:white;
+  display:flex;
+  flex-direction: column;
+  margin: 0px;
+}
 .colgate {
   width: 200px;
   box-shadow: 20px 20px 20px black;
@@ -13,22 +19,25 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 }
-body * {background-color:font-size: 4rem;
+body * {
+  border-style: solid;
+  background-color: black;
   font-family: serif;
   text-align: center;
   color: white;}
   h1 {
+    border-style: solid;
+    background-color: #9a39f5;
     font-size:xxx-large;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
   p {
+    border-style: solid;
+    background-color: black;
     font-size: x-large;
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color: black;
   }
-@media(max-width: 768px) {
-  body {
-    height: 100%;
-  } 
-}
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }  
