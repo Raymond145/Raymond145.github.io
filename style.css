@@ -5,7 +5,8 @@ body {
   background-image: url(/photosexe/1297452.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 .header, .intro, .image-section, .links-section {
   text-align: center;
