@@ -1,12 +1,13 @@
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   color: white;
   font-family: serif;
   background-image: url(/photosexe/1297452.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 .header, .intro, .image-section, .links-section {
   text-align: center;
@@ -38,6 +39,9 @@ body {
   border-radius: 50px;
   margin: 30px auto;
   }
+.links-section {
+  flex-grow: 1;
+}
 .links-section ul {
     list-style: none;
     padding: 0;
